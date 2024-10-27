@@ -1,0 +1,25 @@
+{
+    "numbers": {
+        "float": "<number:float>",
+        "int": "<number:int>"
+    },
+    "date": {
+        "format1": "<eventDate:date|format=%Y-%m %d>",
+        "format2": "<eventDate:date|format=%d/%m/%y>",
+        "format3": "<eventDate:date|format=%d %M %Y>",
+        "futureDate": "The next event takes place on: <eventDate:date|format=%d/%m/%y|add_years=1>",
+        "original_date": "<date_input:date|format=%Y-%m-%d>",
+        "one_year_later": "<date_input:date|format=%Y-%m-%d|add_years=1>",
+        "two_months_earlier": "<date_input:date|format=%Y-%m-%d|subtract_months=2>",
+        "next_week": "<date_input:date|format=%Y-%m-%d|add_days=7>"
+    }
+    ,
+    "currency": {
+        "product_price": "<price:currency|format=long|currency_code=GBP>",
+        "discounted_price": "<price:currency|format=standard|currency_code=GBP|symbol=false>",
+        "price_in_euros": "<price:currency|format=standard|currency_code=EUR>",
+        "price_in_dollars": "<price:currency|format=standard|currency_code=USD>",
+        "short_price": "<price:currency|format=short|currency_code=GBP>",
+        "not_formatted_price": "<price:currency|currency_code=GBP>"
+    }
+}

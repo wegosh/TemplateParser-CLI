@@ -1,0 +1,4 @@
+{
+    "float": "<number:float>",
+    "int": "<number:int>"
+}

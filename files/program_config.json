@@ -1,0 +1,7 @@
+{
+    "required_variables": [
+        {"name": "TemplateName", "type": "str"}
+    ],
+    "output_filename_format": "{TemplateName}.json",
+    "locale": "en_GB"
+}
