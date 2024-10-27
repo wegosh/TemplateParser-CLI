@@ -1,3 +1,5 @@
+[![Unit Tests](https://github.com/wegosh/TemplateParser-CLI/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/wegosh/TemplateParser-CLI/actions/workflows/run-tests.yml)
+
 # JSON Template Parser
 
 A command-line interface (CLI) tool for parsing JSON templates and replacing placeholders with user-provided values. This tool simplifies the process of generating customized JSON files based on templates, making it ideal for configuration management, testing, and other automation tasks.
